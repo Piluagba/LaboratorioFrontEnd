@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es"> 
+    <head> 
+        <title>Formulario cuenta ficticia</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body> 
+        <form action="" class="formulario" id="formulario" onsubmit="return validacion()">
+            <h1>Create Account</h1> <br>
+            <div class="cuadro">
+            </div>
+            <div class="TitleContainer" id="TitleContainer">
+                <label for="nombre">Nombre</label><br>
+                <input type="text" class="container" id="nombre"> 
+                <img src="images/error-icon.svg" class="validacion-error" id="validacion-error1" hidden=true>
+                <img src="images/success-icon.svg" class="validacion-acierto" id="validacion-acierto1" hidden=true> 
+                <p class="texto-error-nombre" id="texto-error-nombre" hidden="true">Rellene este campo</p> 
+
+                <label for="Email">Email</label><br>
+                <input type="email" class="container" id="email"> 
+                <img src="images/error-icon.svg" class="validacion-error" id="validacion-error2" hidden=true>
+                <img src="images/success-icon.svg" class="validacion-acierto" id="validacion-acierto2" hidden=true> 
+                <p class="texto-error-email" id="texto-error-email" hidden="true">Rellene este campo</p>
+    
+
+                <label for="clave">Clave</label><br>
+                <input type="password" maxlength="8" class="container" id="password1"> 
+                <img src="images/error-icon.svg" class="validacion-error" id="validacion-error3"hidden=true>
+                <img src="images/success-icon.svg" class="validacion-acierto" id="validacion-acierto3"hidden=true> 
+                <p class="texto-error-password1" id="texto-error-password1" hidden="true">Rellene este campo</p>
+
+                <label for="Confirme su clave">Confirme su clave</label><br>
+                <input type="password" maxlength="8" class="container" id="password2">  
+                <img src="images/error-icon.svg" class="validacion-error" id="validacion-error4"hidden=true>
+                <img src="images/success-icon.svg"class="validacion-acierto" id="validacion-acierto4"hidden=true> 
+                <p class="texto-error-password2" id="texto-error-password2" hidden="true">Rellene este campo</p>
+            </div>
+            
+            <div>
+                <input class="buttom" type="submit" value="ENVIAR"><br>
+        
+            </div>
+
+            </form>   
+            <script src="index.js"></script>
+    </body>
+</html>

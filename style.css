@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+body{
+    background-color:#242933
+}
+h1{
+color:#a0aed2;
+font-family: sans-serif;
+font-size: 30px;
+
+}
+.formulario{
+width: 400px;
+background:#303444; 
+padding: 30px;
+margin:0 auto;
+margin-top: 10px;
+border-radius: 6px;
+border: 3px solid #3a4056;
+position: relative;
+}
+
+.TitleContainer {
+    margin: 0;
+    color:#a0aed2;
+    font-family: poppins;
+    font-size: 15px;
+}
+.container {
+    height: 45px;
+    width: 98%;
+    padding: auto;
+    background: white;
+    border-radius: 4px;
+}
+.container-error{
+    height: 45px;
+    width: 98%;
+    padding: auto;
+    background: white;
+    border-radius: 4px;
+    border-width: 4px;
+    border-color: red;
+    }
+    
+.container-acierto{
+    height: 45px;
+    width: 98%;
+    padding: auto;
+    background: white;
+    border-radius: 4px;
+    border-width: 4px;
+    border-color: greenyellow;
+    }
+.buttom {
+    width: 100%;
+    font-size: 15px;
+    padding: 15px;
+    color: white;
+    background-color:#6c63ff;;
+    border-radius: 6px;
+    border: 3px solid #0a0915;
+}
+.validacion-error{
+    position:relative;
+    right: 40px;
+    float: 30px;
+}
+.validacion-acierto{
+    position:relative;
+    top: 50px;
+    right: 40px;
+    }
+
+.texto-error-nombre{
+    margin: 0;
+    color: red;
+}
+.texto-error-email{
+    margin: 0;
+    color: red;
+}
+.texto-error-password1{
+    margin: 0;
+    color: red;
+}
+.texto-error-password2{
+    margin: 0;
+    color: red;
+}
