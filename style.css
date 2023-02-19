@@ -26,6 +26,7 @@ position: relative;
     font-size: 15px;
 }
 .container {
+    
     height: 45px;
     width: 98%;
     padding: auto;
@@ -61,14 +62,13 @@ position: relative;
     border: 3px solid #0a0915;
 }
 .validacion-error{
-    position:relative;
-    right: 40px;
-    float: 30px;
-}
+    float: right;
+    
+    }
+
 .validacion-acierto{
-    position:relative;
-    top: 50px;
-    right: 40px;
+    float: right;
+    top: 40px;
     }
 
 .texto-error-nombre{

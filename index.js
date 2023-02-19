@@ -143,9 +143,9 @@ function validacion(){
         let inputpassword2 = document.getElementById('password2')
         inputpassword2.className = 'container-error' 
         let validacionTrue1= document.getElementById('validacion-error4')
-        validacionTrue1.hidden = true
+        validacionTrue1.hidden = false
         let validacionTrue1_1= document.getElementById('validacion-acierto4')
-        validacionTrue1_1.hidden = false
+        validacionTrue1_1.hidden = true
     }
     else{
         let inputpassword1 = document.getElementById('password1')
